@@ -1,0 +1,578 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+.language .english, .germany {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  border-radius: 10%;
+}
+
+.language a {
+  color: #c1c1c1;
+  text-decoration: none;
+}
+
+.language a:hover {
+  color: #333;
+}
+
+ul li .facebook, .instagram, .youtube {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+}
+
+ul li .youtube {
+  margin-right: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.first-header-holder {
+  height: 30px;
+  vertical-align: middle;
+}
+
+.white-holder {
+  background-color: #fff;
+}
+
+.carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  width: 7px;
+  height: 7px;
+  border: 1px solid #fff;
+}
+
+.carousel-item img {
+  height: auto;
+  width: auto;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 30px 0;
+  width: 620px;
+  text-transform: uppercase;
+  font-size: 24px;
+  opacity: .7;
+}
+
+.frame span {
+  display: block;
+  font-size: 96px;
+  color: #fff;
+  opacity: .7;
+}
+
+.title {
+  color: #626362;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#readyrigs, #floats, #catalog {
+  width: 100%;
+  height: 350px;
+  box-shadow: 0 0 0.8px;
+}
+
+.section-holder-home h3 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.section-holder-home a {
+  text-decoration: none;
+  color: #626362;
+}
+
+.section-holder-home a:hover {
+  color: #333;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+.section-holder h3 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.section-holder a {
+  text-decoration: none;
+  color: #626362;
+}
+
+.section-holder a:hover {
+  color: #333;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+.first-footer {
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 40px;
+  color: #626362;
+}
+
+
+
+.info-holder p {
+  color: #c1c1c1;
+  font-size: 18px;
+}
+
+
+.first-footer a {
+  color: #333;
+}
+
+.footer-nav ul a {
+  text-decoration: none;
+  color: #c1c1c1;
+  padding: 0;
+}
+
+.footer-nav ul {
+  list-style: none;
+}
+
+.footer-nav ul a:hover {
+  color: #333;
+}
+
+.nav-link.active {
+  color: #333;
+}
+
+
+
+.contact-holder p {
+  color: #c1c1c1;
+}
+
+.contact-holder p a {
+  text-decoration: none;
+  color: #c1c1c1;
+}
+
+.contact-holder p a:hover {
+  color: #333;
+}
+
+.second-footer {
+  padding: 10px;
+  text-align: center;
+}
+
+.second-footer small {
+  color: #626362;
+}
+
+/*************************
+   Medaia Querys
+*************************/
+@media all and (min-width: 768px) {
+  .intro-header img {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .contact-holder p {
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .info-holder, .footer-nav, .contact-holder {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 400px) {
+  #readyrigs, #floats, #catalog {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+/*************************
+        Contact.html
+*************************/
+/* CONTACT FOR DISABLED */
+.text-holder-contact a{
+  color: red;
+  text-decoration: underline;
+
+}
+.text-holder-contact p {
+  font-size: 22px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* CONTACT FOR DISABLED */
+.contact-holder {
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 200px;
+}
+
+@media all and (min-width: 435px) {
+  #t1, #t2 {
+    border: 1px solid #626362;
+    width: 90px;
+    margin-bottom: 7px;
+  }
+
+  #t1, #t2, h4 {
+    display: inline-block;
+    color: #626362;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 45px;
+  }
+}
+
+@media all and (min-width: 320px) {
+  #t1, #t2, h4 {
+    display: inline-block;
+    color: #626362;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 55px;
+  }
+
+  .text-holder h3 {
+    font-size: 14px !important;
+  }
+}
+
+@media all and (min-width: 576px) {
+  #t1, #t2 {
+    border: 1px solid #626362;
+    width: 145px;
+    margin-bottom: 7px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  #t1, #t2 {
+    border: 1px solid #626362;
+    width: 200px;
+    margin-bottom: 7px;
+  }
+}
+
+/********************
+      ABOUT US
+********************/
+.video-holder {
+  margin-top: 40px;
+}
+
+.gallery-item img {
+  width: 250px;
+  height: 200px;
+  padding-bottom: 5px;
+}
+
+.text-holder-about_us img {
+  width: 300px;
+  height: 300px;
+}
+.text-holder-about_us {
+  margin-top: 40px;
+}
+
+.gallery-item {
+  margin-top: 40px;
+}
+
+/**********************
+       PRODUCTS
+***********************/
+@media all and (min-width:460px){
+  .product-holder {
+    width: 50%;
+  }
+}
+@media all and (min-width:400px){
+  .section-holder {
+    width: 50%;
+  }
+}
+.h1-products {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.text-holder {
+  text-align: left;
+}
+
+/* .product-image {
+      border: 2px solid #c1c1c1;
+      width: 300px;
+      height: 350px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      transition: transform .3s;
+    } */
+
+
+.text-holder-products {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+
+.text-holder-products h3 {
+  margin-bottom: 50px;
+}
+
+.text-holder-products p {
+  font-size: 18px;
+}
+
+@media all and (min-width: 320px) {
+
+
+  .text-holder-products h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.color-holder-products {
+  background-color: #eee;
+}
+
+.nav-holder-products nav a:first-child {
+  padding-left: 0;
+}
+
+.text-holder-products h4 {
+  margin-bottom: 40PX;
+}
+
+.img-holder img {
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  /* max-width: 100%;
+  transition: all 0.3s; */
+}
+
+/* .img-holder {
+  position: relative;
+  overflow: hidden;
+}
+.img-holder:hover img {
+  transform: scale(1.1);
+} */
+.title-holder h5 {
+  font-weight: 500;
+}
+
+.title-holder {
+  border-bottom: 1.2px solid #c1c1c8;
+}
+
+/***********************
+    Standard floats
+***********************/
+.back {
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+.back a {
+  color: #c1c1c1;
+  text-decoration: none;
+  font-style: italic;
+    font-size: 22px;
+}
+
+.back a:hover {
+  color: #333;
+}
+
+/* NAVIGATION FOR PRODUCTS */
+/* fixed navigation */
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: .3s;
+}
+
+.sticky {
+  z-index: 1;
+}
+
+
+/* fixed navigation  */
+
+/* TESTIMONIAL PROBA */
+.testimonial-holder {
+  background-image: url("../img/testimonials/fisherman.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 20px;
+}
+.testimonial-holder h2 {
+  font-size: 22px;
+}
+.article-holder-testimonial img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.article-holder-testimonial {
+  color: #c1c1c1;
+  margin-bottom: 25px;
+}
+
+.article-holder-testimonial p {
+  text-align: center;
+  color: #c1c1c1;
+  font-size: 14px;
+}
+@media all and (min-width: 576px) {
+  .article-holder-testimonial .name-holder{
+    text-align: right;
+  }
+  .article-holder-testimonial p{
+    text-align: left;
+  }
+}
+
+.testimonial-holder h5 {
+  color: #c1c1c1;
+  margin-bottom: 15px;
+}
+
+@media all and (min-width: 435px) {
+  #t11, #t22 {
+    border: 1px solid #c1c1c1;
+    width: 90px;
+    margin-bottom: 7px;
+  }
+
+  #t11, #t22,  h2 {
+    display: inline-block;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 45px;
+  }
+}
+
+@media all and (min-width: 320px) {
+  #t11, #t22,  h2 {
+    display: inline-block;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 55px;
+  }
+  .testimonial-holder{
+    background-image: url("../img/testimonials/fisherman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media all and (min-width: 576px) {
+  #t11, #t22 {
+    border: 1px solid #c1c1c1;
+    width: 150px;
+    margin-bottom: 7px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  #t11, #t22 {
+    border: 1px solid #c1c1c1;
+    width: 200px;
+    margin-bottom: 7px;
+  }
+}
+
+/* TESTIMONIAL PROBA */
+
+/* DROPDOWN ON HOVER */
+/* Dropdown Button */
+.dropbtn {
+    color: rgba(0,0,0,.5);
+
+    font-size: 16px;
+    border: none;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown-hover {
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eee;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgba(0,0,0,.5);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #eee;
+}
+/* Show the dropdown menu on hover */
+.dropdown-hover:hover .dropdown-content {
+  display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-hover .dropbtn:hover {
+  color: rgba(0,0,0,.7);
+  text-decoration: none;
+}
+/* DROPDOWN ON HOVER */
+/* .container .text-center {
+  margin-top: 45px;
+} */
